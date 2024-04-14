@@ -1,0 +1,68 @@
+/* змінні - це всі кольори */
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
+}
+
+/* basa */
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Poppins', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+/* button кнопка */
+.button {
+  color: var(--color-primary-light);
+  border: 2px solid var(--color-brand-light);
+  background-color: var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+
+/* посилання Link */
+.link {
+  color: var(--color-primary-light);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/* hero section головна секция */
+.hero-title {
+  color: var(--color-primary-light);
+  text-align: center;
+}
+
+.hero-title .accent {
+  color: var(--color-brand-light); /*hex value */
+}
+
+/*  */
+.advantages-list {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+}
+
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
+
+/* traditions-section */
+.traditions-text .brend {
+  color: var(--color-brand-light);
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
+}
